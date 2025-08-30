@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-fundo-principal: 
+#0b121dfb;
+    --cor-fundo-secundaria: #0b121dce;
+    --cor-titulos: #ffb22c;
+    --fonte-pricipal: 'arial', sans-serif;
+}
+
+body{
+    background-color: var(--cor-fundo-principal);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    max-width: 80%;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 38px;
+    padding: 30px;
+}
+
+.titulo span{
+    color: var(--cor-titulos);
+}
+
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu img{
+    height: 120px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: #ffffff;
+}
+
+.btnContacto {
+    padding: 8px 15px;
+    background-color: var(--cor-titulos);
+    color: #000000;
+    font-size: large;
+    border: 0;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    height: 800px;
+    margin: 25px auto;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+.textoBanner{
+    flex: 1;
+}
+
+.banner h1{
+    color: var(--cor-titulos);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    
+}
+
+.banner h1 span{
+    color: #ffffff;
+    font-size: large;
+
+}
+
+.banner p{
+    margin: 20px 0;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.btnCurriculo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--cor-titulos);
+    color: #000000;
+    border: 0;
+    border-radius: 6px;
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+.btnCurriculo:hover {
+    background: #27ae60;
+}
+
+.imgBanner img{
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.imgBanner img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+
+    }
+}
+
+.servicos{
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.servico .titulo{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.boxes{
+    padding: 25px;
+    max-width: 240px;
+    height: 240px;
+    box-shadow: 0 0 5px var(--cor-titulos);
+    border-radius: 10px;
+    transition: transform .3s;
+}
+
+.boxes:hover {
+    transform: translateY(-5px);
+}
+
+
+.boxes i{
+    color: var(--cor-titulos);
+    padding: 10px 0;
+    font-size: 35px;
+}
+
+.tituloBox{
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.boxes p{
+    padding: 10px 0;
+    line-height: 22px;
+}
+
+
+
+
