@@ -207,6 +207,7 @@ section#sobre{
 
 #titulo-sobre span{
     display: block;
+    font-size: 2.3rem;
 }
 
 
@@ -256,9 +257,6 @@ section#sobre{
     transform: scale(1.05);
     box-shadow: 0 0 3px #ffb22c;
 }
-
-
-
 
 
 
