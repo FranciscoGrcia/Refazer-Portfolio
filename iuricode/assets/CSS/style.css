@@ -155,10 +155,6 @@ ul li a{
     text-align: center;
 }
 
-.servico .titulo{
-    font-size: 2rem;
-    margin-bottom: 40px;
-}
 
 .box{
     display: flex;
@@ -239,11 +235,16 @@ section#sobre{
 }
 
 .sociais i{
-    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
     background-color: var(--cor-titulos);
     color: #000000;
-    font-size: 1.5rem;
-    border-radius: 50% 50%;
+    font-size: 1.4rem;
+    border-radius: 50%;
     margin: 0 5px;
     transition: color 0.3s ease;
 }
