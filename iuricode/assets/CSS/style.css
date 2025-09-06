@@ -38,7 +38,7 @@ body{
     margin: 0 auto;
     background-color: var(--cor-fundo-secundaria);
     height: 80px;
-    box-shadow: 0  1px #ffc800d7;
+    box-shadow: 0  1px #ffc8003b;
 }
 
 .menu img{
