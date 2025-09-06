@@ -68,7 +68,8 @@ ul li a{
     text-decoration: none;
     margin: 20px;
     color: #ffffff;
-    font-family: 'robot';
+    font-family: 'arial' Helvetica, sans-serif;
+    font-weight: bold;
     transition: color .3s;
 }
 
