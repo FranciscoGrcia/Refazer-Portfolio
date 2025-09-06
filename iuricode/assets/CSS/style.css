@@ -1,21 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
-    --cor-fundo-principal: 
-#0b121dfb;
-    --cor-fundo-secundaria: #0b121dce;
+    --cor-fundo-principal: #0b121d;
+    --cor-fundo-secundaria: rgba(19, 30, 48, 0.349);
     --cor-titulos: #ffb22c;
     --fonte-pricipal: 'arial', sans-serif;
 }
 
 body{
-    background-color: var(--cor-fundo-principal);
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-fundo-principal);
     color: #ffffff;
-    max-width: 80%;
     margin: auto;
     line-height: 1.6;
 }
@@ -37,10 +36,14 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    background-color: var(--cor-fundo-secundaria);
+    height: 80px;
+    box-shadow: 0  1px #ffc800d7;
 }
 
 .menu img{
-    height: 120px;
+    height: 105px;
+    margin: 0 20px;
 }
 
 ul {
@@ -56,6 +59,11 @@ ul li a{
     text-decoration: none;
     margin: 20px;
     color: #ffffff;
+    transition: color .3s;
+}
+
+ul li a:hover{
+    color: var(--cor-titulos);
 }
 
 .btnContacto {
@@ -149,11 +157,12 @@ ul li a{
 }
 
 .servicos{
-    max-width: 1100px;
     height: auto;
     margin: 0px auto;
-    padding: 0 20px;
+    padding: 30px 0;
     text-align: center;
+    background-color: var(--cor-fundo-secundaria);
+
 }
 
 
@@ -167,13 +176,14 @@ ul li a{
 }
 
 .boxes{
-    background-color: #00000019;
-    padding: 25px;
-    max-width: 240px;
-    height: 240px;
+    background-color: var(--cor-fundo-principal);
+    padding: 20px;
+    max-width: 350px;
+    height: 250px;
     box-shadow: 0 0 3px var(--cor-titulos);
     border-radius: 10px;
     transition: transform .3s;
+
 }
 
 .boxes:hover {
@@ -199,8 +209,7 @@ ul li a{
 
 section#sobre{
     max-width: 1100px;
-    margin: 80px auto;
-    background-color: #00000019;
+    margin: 30px auto;
     padding: 2em;
 }
 
