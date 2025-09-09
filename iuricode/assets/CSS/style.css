@@ -310,7 +310,7 @@ section#sobre{
 }
 
 .artigosPortfolio{
-    padding: 20px;
+    padding: 23px;
 }
 
 .artigosPortfolio h3{
@@ -323,6 +323,7 @@ section#sobre{
 .artigosPortfolio p{
     padding-bottom: 12px;
     flex: 1;
+    color: #d7d6d6;
 }
 
 
