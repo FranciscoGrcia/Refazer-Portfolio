@@ -13,7 +13,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor-fundo-principal);
+    background: var(--cor-fundo-principal);
     color: #ffffff;
     margin: auto;
     line-height: 1.6;
@@ -35,7 +35,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    background-color: var(--cor-fundo-secundaria);
+    background: var(--cor-fundo-secundaria);
     height: 80px;
     box-shadow: 0  1px #ffc8003b;
 }
@@ -79,7 +79,7 @@ ul li a:hover{
 
 .btnContacto {
     padding: 8px 15px;
-    background-color: var(--cor-titulos);
+    background: var(--cor-titulos);
     color: #000000;
     font-size: large;
     border: 0;
@@ -89,7 +89,7 @@ ul li a:hover{
 }
 
 .btnContacto:hover{
-    background-color: #393E46;
+    background: #393E46;
     color: var(--cor-titulos);
 }
 
@@ -129,7 +129,7 @@ ul li a:hover{
 .btnCurriculo {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--cor-titulos);
+    background: var(--cor-titulos);
     color: #000000;
     border: 0;
     border-radius: 6px;
@@ -140,7 +140,7 @@ ul li a:hover{
 }
 
 .btnCurriculo:hover {
-    background-color: #393E46; /* mesma cor do título */
+    background: #393E46; /* mesma cor do título */
     color: var(--cor-titulos);
 }
 
@@ -170,7 +170,7 @@ ul li a:hover{
     margin: 0px auto;
     padding: 30px 0;
     text-align: center;
-    background-color: var(--cor-fundo-secundaria);
+    background: var(--cor-fundo-secundaria);
 }
 
 
@@ -184,7 +184,7 @@ ul li a:hover{
 }
 
 .boxes{
-    background-color: var(--cor-fundo-principal);
+    background: var(--cor-fundo-principal);
     padding: 20px;
     max-width: 350px;
     height: 250px;
@@ -260,7 +260,7 @@ section#sobre{
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: var(--cor-titulos);
+    background: var(--cor-titulos);
     color: #000000;
     font-size: 1.4rem;
     border-radius: 50%;
@@ -269,13 +269,13 @@ section#sobre{
 }
 
 .sociais i:hover {
-    background-color: #393E46;
+    background: #393E46;
     color: var(--cor-titulos); /* mesma cor do título */
     transform: scale(1.09);
 }
 
 #portfolio{
-    background-color: var(--cor-fundo-secundaria);
+    background: var(--cor-fundo-secundaria);
     margin: 50px auto;
     padding: 2.5em;
 }
@@ -290,9 +290,9 @@ section#sobre{
 }
 
 .caixaPortfolio{
-    background-color: var(--cor-fundo-principal);
-    max-width: 400px;
-    height: 500px;
+    background: var(--cor-fundo-principal);
+    max-width: 390px;
+    height: 490px;
     box-shadow: 0 0 8px var(--cor-titulos);
     border-radius: 10px;
     transition: transform .3s;
@@ -305,11 +305,12 @@ section#sobre{
 .imagemPortfolio{
     width: 100%;
     height: 250px;
-    border-radius: 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .artigosPortfolio{
-    padding: 25px;
+    padding: 20px;
 }
 
 .artigosPortfolio h3{
