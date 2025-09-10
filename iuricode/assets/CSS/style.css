@@ -332,6 +332,12 @@ section#sobre{
     grid-template-columns: 1fr;
 }
 
+#cards .titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+}
+
 .flexCards{
     display: flex;
     justify-content: center;
@@ -345,22 +351,23 @@ section#sobre{
 .card {
     padding: 20px;
     max-width: 350px;
-    height: 250px;
-    box-shadow: 0 0 8px var(--cor-titulos);
-    border-radius: 8px;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
     text-align: center;
     transition: transform .3s;
     }
 
     .card:hover{
         transform: translateY(-5px);
+        box-shadow: 0 1px 1px #ffb22c;
     }
 
     .icon i{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    color: #576f96;
+    color: #ffb22cab;
     font-size: 2.5rem;
     margin: 10px 0;
     }
@@ -377,6 +384,7 @@ section#sobre{
 
     .card p{
         color: #d7d6d6d7;
+        font-size: 1rem;
     }
 
     
