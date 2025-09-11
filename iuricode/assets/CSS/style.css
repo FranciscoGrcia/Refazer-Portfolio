@@ -265,7 +265,7 @@ section#sobre{
     font-size: 1.4rem;
     border-radius: 50%;
     margin: 0 5px;
-    transition: background .3s;
+    transition: background .4s;
 }
 
 .sociais i:hover {
