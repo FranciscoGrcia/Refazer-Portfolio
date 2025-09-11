@@ -265,13 +265,13 @@ section#sobre{
     font-size: 1.4rem;
     border-radius: 50%;
     margin: 0 5px;
-    transition: .3s;
+    transition: background .3s;
 }
 
 .sociais i:hover {
     background: #393E46;
     color: var(--cor-titulos); /* mesma cor do título */
-    transform: scale(1.09);
+    
 }
 
 #portfolio{
